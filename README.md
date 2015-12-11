@@ -14,7 +14,7 @@ From Module1.vb
       to be added to the application.
 
 # Usage
-RunWhileOpen [exe]
+RunWhileOpen [-o [path_to_file] | [exe]]
 
 # Steam Usage
 Add non-steam game
