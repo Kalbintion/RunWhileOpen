@@ -15,11 +15,25 @@ Module Module1
     Sub Main()
         Dim running As Boolean = False
         Dim exe As String
+
+        Dim runFile As Boolean = False
+
         If Environment.GetCommandLineArgs().Count > 1 Then
-            exe = Environment.GetCommandLineArgs(1) ' Grab the first argument from the line, thisll be the executable to look for
+            exe = Environment.GetCommandLineArgs(1) ' Grab the first argument from the line
+            If exe.ToLower = "-o" Or exe.ToLower = "-r" Then
+                runFile = True
+                exe = Environment.GetCommandLineArgs(2) ' Since this is the -o parameter, the second arg will be the file location
+            End If
         Else
-            End
+            End ' We don't have enough information
         End If
+
+        If runFile Then
+            Process.Start(exe)
+            Dim file As System.IO.FileInfo = New System.IO.FileInfo(exe)
+            exe = file.ToString
+        End If
+
         Dim p() As Process
         Console.WriteLine("Looking for: " & exe)
         Do
