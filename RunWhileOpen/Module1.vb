@@ -40,6 +40,8 @@ Module Module1
             p = Process.GetProcessesByName(exe)
             If p.Count > 0 Then
                 running = True
+            Else
+                running = False
             End If
             System.Threading.Thread.Sleep(5000) ' Prevent program from running non-stop. meant to cut down on CPU usage
         Loop Until running = False
