@@ -12,3 +12,13 @@ From Module1.vb
       same executable name, but swapping between them would require each particular version to be
       added to the Steam library list. Sony Vegas Pro 13.0 has crashed with Steam overlay attempting
       to be added to the application.
+
+# Usage
+RunWhileOpen [exe]
+
+# Steam Usage
+Add non-steam game
+Right-Click RunWhileOpen
+Properties
+Re-name to what you want to display
+Modify Target line and append the executable name to look for without the .exe portion
