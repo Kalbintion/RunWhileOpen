@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("RunWhileOpen")> 
-<Assembly: AssemblyDescription("")> 
+<Assembly: AssemblyTitle("RunWhileOpen")>
+<Assembly: AssemblyDescription("This application will stay running in the background until a program is no longer opened")>
 <Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("RunWhileOpen")> 
-<Assembly: AssemblyCopyright("Copyright ©  2015")> 
+<Assembly: AssemblyProduct("RunWhileOpen")>
+<Assembly: AssemblyCopyright("Copyright © 2015")>
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
