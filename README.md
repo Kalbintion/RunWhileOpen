@@ -1,7 +1,7 @@
 # RunWhileOpen
 Application targeted at Steam to run with specified file running.
 
-From Module1.vb
+From modMain.vb
 
     This application will stay running in the background until a program is no longer opened
       which was to allow a "game" to be marked as being played in steam without having to worry
@@ -17,8 +17,8 @@ From Module1.vb
 RunWhileOpen [-o [path_to_file] | [exe]]
 
 # Steam Usage
-Add non-steam game
-Right-Click RunWhileOpen
-Properties
-Re-name to what you want to display
-Modify Target line and append the executable name to look for without the .exe portion
+- Add non-steam game
+- Right-Click RunWhileOpen
+- Properties
+- Re-name to what you want to display
+- Modify Target line and append the executable name to look for without the .exe portion
