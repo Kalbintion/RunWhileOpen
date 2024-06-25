@@ -14,3 +14,4 @@ C:\Projects\VS10\RunWhileOpen\RunWhileOpen\bin\Debug\RunWhileOpen.pdb
 C:\Projects\VS10\RunWhileOpen\RunWhileOpen\bin\Debug\RunWhileOpen.xml
 C:\Projects\VS10\RunWhileOpen\RunWhileOpen\obj\x86\Debug\RunWhileOpen.Resources.resources
 C:\Projects\VS10\RunWhileOpen\RunWhileOpen\obj\x86\Debug\RunWhileOpen.vbproj.GenerateResource.Cache
+C:\Projects\VS10\RunWhileOpen\RunWhileOpen\obj\x86\Debug\RunWhileOpen.vbprojResolveAssemblyReference.cache
